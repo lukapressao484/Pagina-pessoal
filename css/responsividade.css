@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+    .cabecalho {
+        flex-direction: column;
+        text-align: center;
+    }
+    .cabecalho-direita {
+        max-width: 100%;
+    }
+    .foto-perfil {
+        width: 250px;
+        height: 250px;
+    }
+}

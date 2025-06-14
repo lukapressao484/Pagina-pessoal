@@ -1,0 +1,24 @@
+.sobre {
+    padding: 6rem 2rem;
+    text-align: center;
+}
+.sobre-content {
+    background: rgba(253, 250, 250, 0.05);
+    border: 1px solid var(--vidro);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 900px;
+}
+.sobre-paragrafo {
+    font-size: 1.5rem;
+    color: var(--claro);
+    text-align: justify;
+    font-weight: bold;
+}
+.sobre-titulo {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: var(--claro);
+}

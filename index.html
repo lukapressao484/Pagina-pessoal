@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/padrao.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/portifolio.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/responsividade.css">
+
+  <title>Portfólio - Jean Lucas</title>
+</head>
+
+<body>
+  <div class="particulas"></div>
+
+  <!-- NAV -->
+  <nav class="navegacao">
+    <ul class="menu">
+      <li><a href="#inicio" class="menu-link">Início</a></li>
+      <li><a href="#sobre" class="menu-link">Sobre</a></li>
+      <li><a href="#portifolio" class="menu-link">Portfólio</a></li>
+      <li><a href="#contatos" class="menu-link">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- INICIO -->
+  <section id="inicio" class="cabecalho">
+    <div class="cabecalho-esquerda">
+      <img src="img/jean.jpg" alt="Jean Lucas" class="foto-perfil" />
+    </div>
+    <div class="cabecalho-direita">
+      <h1>Jean Lucas</h1>
+      <p class="cabecalho-sub-titulo">
+        -Gestor de TI<br>
+        -Desenvolvedor Full Stack <br>
+        -Cofundador da VISIONID
+      </p>
+      <div class="cabecalho-tecnologias">
+        <img src="img/Python.svg" alt="Python" />
+        <img src="img/HTML5.svg" alt="HTML5" />
+        <img src="img/JavaScript.svg" alt="JavaScript" />
+        <img src="img/PHP.svg" alt="PHP" />
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MIM -->
+  <section id="sobre" class="sobre">
+    <h2 class="sobre-titulo">Sobre Mim</h2>
+    <div class="sobre-content">
+      <p class="sobre-paragrafo">
+        Entusiasta de tecnologia e inovação, sou fundador de uma startup especializada em soluções inteligentes para o setor jurídico e cartorial. Minha missão é transformar processos tradicionais por meio da automação, inteligência artificial e design funcional. Acredito que tecnologia bem aplicada é aquela que resolve problemas reais com simplicidade, agilidade e impacto.
+      </p>
+    </div>
+  </section>
+
+  <!-- PORTIFOLIO -->
+  <section id="portifolio" class="portifolio">
+    <h2 class="portifolio-titulo">Meu Portfólio</h2>
+    <div class="portifolio-content">
+
+      <div class="portifolio-card">
+        <img src="img/automação.png" alt="Projeto 1" class="portifolio-img" />
+        <div class="content-texto-port">
+          <h3 class="inf-portifolio">Sistema de automação jurídica</h3>
+          <p class="paragrafo-portifolio">Plataforma para transcrição automática de documentos cartoriais.</p>
+          <a href="https://visionidbr.com.br" target="_blank"  class="blog-link">Ver projeto</a>
+        </div>
+      </div>
+
+      <div class="portifolio-card">
+        <img src="img/estoque.png" alt="Projeto 2" class="portifolio-img" />
+        <div class="content-texto-port">
+          <h3 class="inf-portifolio">Sistema de gerenciamento de estoque</h3>
+          <p class="paragrafo-portifolio">Aplicativo desktop para controle de produtos, entrada/saída e relatórios.</p>
+        </div>
+      </div>
+
+      <div class="portifolio-card">
+        <img src="img/busca.png" alt="Projeto 3" class="portifolio-img" />
+        <div class="content-texto-port">
+          <h3 class="inf-portifolio">Sistema de Busca para cartórios de registro de imóveis</h3>
+          <p class="paragrafo-portifolio">Painel de busca de registros de imóveis.</p>
+        </div>
+      </div>
+
+      <div class="portifolio-card">
+        <img src="img/site.png" alt="Projeto 3" class="portifolio-img" />
+        <div class="content-texto-port">
+          <h3 class="inf-portifolio">Site CARTUP</h3>
+          <p class="paragrafo-portifolio">Gestão para cartórios e regularização fundiária - empresa especializada em prestação de serviços jurídicos.</p>
+            <a href="https://cartup.com.br" target="_blank"  class="blog-link">Ver projeto</a>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</section>
+
+  <!-- FORMULARIO -->
+<section id="contatos" class="contatos">
+  <h2 class="contato-titulo">Entre em contato</h2>
+
+<form class="form-contato" id="formulario" method="POST" action="https://formsubmit.co/silvaslucas484@gmail.com">
+    <div class="grup-form">
+      <input name="nome" placeholder="Nome" class="campo-form" required />
+    </div>
+
+    <div class="grup-form">
+      <input name="email" placeholder="E-mail" class="campo-form" type="email" required />
+    </div>
+
+    <div class="grup-form">
+      <textarea name="mensagem" class="campo-form" placeholder="Digite sua mensagem" required></textarea>
+    </div>
+
+    <button type="submit" class="botao-form">Enviar</button>
+  </form>
+
+  <div class="redes-sociais">
+    <a href="https://wa.me/5577998349223" target="_blank" class="rede-link">
+      <i class="fab fa-whatsapp"></i> WhatsApp
+    </a>
+    <a href="https://instagram.com/jeann_lucascps" target="_blank" class="rede-link">
+      <i class="fab fa-instagram"></i> Instagram
+    </a>
+    <a href="mailto:silvaslucas484@gmail.com" class="rede-link">
+      <i class="fas fa-envelope"></i> E-mail
+    </a>
+  </div>
+</section>
+<footer>
+  <p>&copy;2025 - Jean Lucas Campos da Silva. Todos os direitos reservados.</p>
+</footer>
+</body>
+
+</html>
