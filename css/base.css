@@ -13,3 +13,7 @@ footer {
     text-align: center;
     background-color: rgba(0, 255, 255, 0.092);;
 }
+
+footer #cor{
+    color: red;
+}
